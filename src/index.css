@@ -1,0 +1,85 @@
+
+
+html {
+	background-color: rgb(39, 36, 43);
+	min-height:100%;
+	min-width: 100%;
+}
+
+body{
+	margin:auto;
+	height: 100%;
+	width: 100%;
+}
+
+#root{
+	margin:auto;
+}
+
+html,
+body,
+#root {
+	font-family: sans-serif;
+	font-weight: 500;
+	display:flex;
+}
+
+#main{
+	padding:50px;
+	margin:auto;
+}
+
+#title{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	color:rgb(233, 233, 233);
+}
+
+#description{
+	text-align: center;
+	font-size: 13px;
+	color:rgb(189, 189, 189);
+}
+
+.axisWhite text{
+	font-weight: 500;
+	font-size: 13px;
+	fill:rgb(231, 231, 231);
+}
+
+.axisWhite path{
+	stroke: transparent;
+}
+
+.axisWhite line{
+	stroke-width: 2px;
+	stroke: rgb(221, 221, 221);
+}
+
+
+.tooltip{
+	line-height: 15px;
+	text-align: center;
+	font-size: 11px;
+	position: absolute;		
+	border-radius: 5px;				
+	padding:5px;				
+	color:white;
+	background: rgba(0, 0, 0, 0.781);	
+	pointer-events: none;	
+}
+
+.legendText{
+	text-anchor: middle;
+	font-size: 9px;
+
+}
+
+.legend text{
+	font-weight: bold;
+	font-size: 11px;
+	text-anchor: middle;
+	fill:rgb(187, 187, 187);
+}
+
